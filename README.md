@@ -33,11 +33,15 @@ Tạo ứng dụng Windows Forms bằng C# với các tính năng đăng nhập 
    * "SQL Server Data Tools"
 
 ### 3. Tạo bản sao của repository NT106Q14-BTNHOM8-2025
+Cách 1: Dùng git clone
 ```bash
 git clone https://github.com/TheAnh-05-UIT/NT106-Q14_BTNhom08.git
+```
 nhấn vào folder NT106-Q14_BTNhom08
 mở file FormRegisterLogin-Group8.sln
-```
+Cách 2: Tải xuống dưới dạng file .Zip
+Giải nén file sau đó nhấn vào folder vừa giải nén
+mở file FormRegisterLogin-Group8.sln
 
 ### 4. Tạo Server và Database
 * Kết nối đến server "(localdb)\MSSQLLocalDB" bằng [SMMS](https://learn.microsoft.com/en-us/ssms/) hoặc bằng VS2022
