@@ -46,6 +46,9 @@ git clone https://github.com/TheAnh-05-UIT/NT106-Q14_BTNhom08.git
 ### 4. Tạo Server và Database
 * Kết nối đến server "(localdb)\MSSQLLocalDB" bằng [SMMS](https://learn.microsoft.com/en-us/ssms/) hoặc bằng VS2022
 * Tạo Database bằng cách execute file "DatabaseConnection.sql"
+* Khi SQL Server hiển thị ra phần kết nối với SQL
+* Nhấn vào phần Local sau đó chọn (localdb)\MSSQLLocalDB
+* Nhấn connect để kết nối với Database
 
 ### 5. Build và chạy 
 * Set Project thành Startup Project
@@ -55,6 +58,9 @@ git clone https://github.com/TheAnh-05-UIT/NT106-Q14_BTNhom08.git
 * Đăng ký tài khoản Giáo Viên
 * Đăng nhập tài khoản Giáo Viên
 * Quản lý Sinh Viên
+* Thêm Sinh Viên
+* Update Sinh Viên
+* Xóa Sinh Viên
 
 ## Tài liệu tham khảo
 
