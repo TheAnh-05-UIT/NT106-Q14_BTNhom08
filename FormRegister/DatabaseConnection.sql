@@ -1,0 +1,23 @@
+﻿-- Tạo database
+CREATE DATABASE UserDatabase;
+GO
+
+-- Sử dụng database vừa tạo
+USE UserDatabase;
+GO
+
+-- Tạo bảng Users
+CREATE TABLE GIAOVIEN (
+    Id INT PRIMARY KEY IDENTITY,
+    Username NVARCHAR(50) UNIQUE NOT NULL,
+    Password NVARCHAR(255) NOT NULL,
+    Email NVARCHAR(100),
+    Phone NVARCHAR(15)
+);
+
+CREATE TABLE SINHVIEN(
+    Id INT PRIMARY KEY IDENTITY,
+    NAMESV NVARCHAR(50) NOT NULL,
+    EMAIL VARCHAR(100),
+    PHONE VARCHAR(15)
+);
